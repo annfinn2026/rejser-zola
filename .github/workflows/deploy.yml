@@ -1,0 +1,38 @@
+name: Deploy Zola to hajsdocker
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Zola
+        run: |
+          curl -sL "https://github.com/getzola/zola/releases/download/v0.23.6/zola-v0.23.6-x86_64-unknown-linux-gnu.tar.gz" | tar -xz
+          sudo mv zola /usr/local/bin/
+          zola --version
+
+      - name: Build site with Zola
+        run: |
+          zola build
+
+      - name: Deploy to hajsdocker via SSH/rsync
+        env:
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          HOST: ${{ secrets.SSH_HOST }}
+          PORT: ${{ secrets.SSH_PORT }}
+          USER: ${{ secrets.SSH_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p $PORT $HOST >> ~/.ssh/known_hosts 2>/dev/null
+          rsync -avz --delete -e "ssh -p $PORT -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" ./public/ $USER@$HOST:~/web-rejser/public/
+          echo "✅ Udrullet succesfuldt til hajsdocker!"
