@@ -6,7 +6,7 @@ date = 2026-10-06
 location = "Wien, Østrig"
 days = 3
 photos = 34
-cover_image = "https://hedgedoc.tailf86d.ts.net/uploads/6e31eee3-e230-4308-a501-eb8320c45415.jpg"
+cover_image = "/images/wien/33_schloss_belvedere.jpg"
 nav_days = [
   { anchor = "#dag-1", title = "Dag 1: Indre By & Donau" },
   { anchor = "#dag-2", title = "Dag 2: Museer, Paladser & Arkitektur" },
@@ -25,7 +25,7 @@ nav_days = [
 <div class="cards-grid">
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/2748132f-820b-42c6-96b0-ed43d0cda36b.jpg" alt="En is i varmen" loading="lazy">
+<img src="/images/wien/01_is_i_varmen.jpg" alt="En is i varmen" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Pause & Forfriskning</span>
@@ -35,7 +35,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/1a55782e-3437-4da3-8017-ca5788abd2fa.jpg" alt="Landbrugsministeriet" loading="lazy">
+<img src="/images/wien/02_landbrugsministeriet.jpg" alt="Landbrugsministeriet" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Arkitektur</span>
@@ -45,7 +45,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/bfd6103b-04e4-4f3f-bd28-2a6b8f26041d.jpg" alt="Donaufloden og Donaukanal" loading="lazy">
+<img src="/images/wien/03_langs_donau.jpg" alt="Donaufloden og Donaukanal" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Natur & Byrum</span>
@@ -55,7 +55,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/6cf22567-3981-4498-9fb2-26f9a94ba9c3.jpg" alt="Stemningsfuldt interiør" loading="lazy">
+<img src="/images/wien/04_stemningsbillede_indefra.jpg" alt="Stemningsfuldt interiør" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Interiør</span>
@@ -66,10 +66,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/8263a2e5-f29c-406d-a154-260858124ba4.jpg" alt="Stephansdom i Wien" loading="lazy">
+<img src="/images/wien/05_stephansdom_1.jpg" alt="Stephansdom i Wien" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/0d88edb6-d223-476b-a048-fdd2cdc4aa07.jpg" alt="Stephansdom detalje" loading="lazy">
+<img src="/images/wien/06_stephansdom_2.jpg" alt="Stephansdom detalje" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -81,10 +81,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/2f3fe764-b12a-4d49-bc51-20352a15aa28.jpg" alt="Middag i Wien" loading="lazy">
+<img src="/images/wien/07_tid_til_mad_1.jpg" alt="Middag i Wien" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/6b318cb9-e437-41f2-8415-fa68ba52fdc5.jpg" alt="Dessert og madoplevelse" loading="lazy">
+<img src="/images/wien/08_tid_til_mad_2.jpg" alt="Dessert og madoplevelse" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -95,7 +95,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/bd36418e-94b3-4cbe-acfd-24f210b9df7a.jpg" alt="Ferrari Rød F8 Tributo og Sort 296 GTB" loading="lazy">
+<img src="/images/wien/09_ferrari_f8_og_296.jpg" alt="Ferrari Rød F8 Tributo og Sort 296 GTB" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Spots i Gaden</span>
@@ -105,7 +105,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/84d94af2-50fb-47da-ac5b-fc5d2785879e.jpg" alt="Mindesten for Gestapo-ofrene på Morzinplatz" loading="lazy">
+<img src="/images/wien/10_mindesten_gestapo.jpg" alt="Mindesten for Gestapo-ofrene på Morzinplatz" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Historie & Minde</span>
@@ -127,7 +127,7 @@ nav_days = [
 <div class="cards-grid">
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/b561f5ac-873a-4516-ab99-a9846dc189d6.jpg" alt="Hundertwasserhaus i Wien" loading="lazy">
+<img src="/images/wien/11_hundertwasserhaus.jpg" alt="Hundertwasserhaus i Wien" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Organisk Arkitektur</span>
@@ -137,7 +137,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/c94d3182-7d91-4399-849c-07eb038d01dc.jpg" alt="De farverige bærende søjler ved Hundertwasserhaus" loading="lazy">
+<img src="/images/wien/12_hundertwasser_soejler.jpg" alt="De farverige bærende søjler ved Hundertwasserhaus" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Arkitektoniske Detaljer</span>
@@ -147,7 +147,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/a03a8906-c4fa-4cb8-95d2-109d206836fa.jpg" alt="Wiener Staatsoper (Statsoperaen)" loading="lazy">
+<img src="/images/wien/13_statsoperaen.jpg" alt="Wiener Staatsoper (Statsoperaen)" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Musik & Kultur</span>
@@ -158,10 +158,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/8d3be0b6-4a53-4a5d-b072-31ffd766370d.jpg" alt="Albertina Museum facade og trappe" loading="lazy">
+<img src="/images/wien/14_albertina_museum_1.jpg" alt="Albertina Museum facade og trappe" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/aec13bf8-ed14-4747-982a-d016bd974849.jpg" alt="Albertina udsigt og skulpturer" loading="lazy">
+<img src="/images/wien/15_albertina_museum_2.jpg" alt="Albertina udsigt og skulpturer" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -172,7 +172,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/ce83cf15-868d-47ef-a04f-802fbe7767a7.jpg" alt="Antik og charmerende handelsfacade" loading="lazy">
+<img src="/images/wien/16_antik_facade.jpg" alt="Antik og charmerende handelsfacade" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Byens Liv</span>
@@ -182,7 +182,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/1f4f723a-f935-4f21-b786-6b118bd757ff.jpg" alt="Hofburg indgangen Michaelerplatz" loading="lazy">
+<img src="/images/wien/17_hofburg_indgang.jpg" alt="Hofburg indgangen Michaelerplatz" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Kejserlig Historie</span>
@@ -192,7 +192,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/6465813e-7290-47d4-a8f0-7c8aad9964df.jpg" alt="Romerske udgravninger ved Michaelerplatz" loading="lazy">
+<img src="/images/wien/18_romerske_ruiner.jpg" alt="Romerske udgravninger ved Michaelerplatz" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Arkæologi</span>
@@ -203,10 +203,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/a587fdfa-93ee-4c5a-928f-4bcc7889e699.jpg" alt="Farverige blomsterbede i efteråret" loading="lazy">
+<img src="/images/wien/19_efteraarsblomster_1.jpg" alt="Farverige blomsterbede i efteråret" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/29ebd951-e415-41c0-a8cb-f327bfe6f712.jpg" alt="Statue og haveanlæg" loading="lazy">
+<img src="/images/wien/20_efteraarsblomster_2.jpg" alt="Statue og haveanlæg" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -217,7 +217,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/b771a101-848b-4931-a326-6feee9acfe6f.jpg" alt="Maria Theresia mindesmærke" loading="lazy">
+<img src="/images/wien/21_maria_theresia_mindesmaerke.jpg" alt="Maria Theresia mindesmærke" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Monument</span>
@@ -227,7 +227,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/31cc058b-9324-41b8-ae45-25aef316e727.jpg" alt="Kunsthistorisches Museum Wien" loading="lazy">
+<img src="/images/wien/22_kunsthistorisk_museum.jpg" alt="Kunsthistorisches Museum Wien" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Museum</span>
@@ -237,7 +237,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/f5c72dca-2d79-4e14-9bc0-be6e80b209eb.jpg" alt="Selfie ved rådhuspladsen" loading="lazy">
+<img src="/images/wien/23_selfie_cirkusomraade.jpg" alt="Selfie ved rådhuspladsen" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Minder</span>
@@ -247,7 +247,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/290bdeaf-f335-4db5-a017-24be06b3f9da.jpg" alt="Burgtheater - Østrigs Nationalscene" loading="lazy">
+<img src="/images/wien/24_burgtheater_nationalscenen.jpg" alt="Burgtheater - Østrigs Nationalscene" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Teater & Kultur</span>
@@ -258,10 +258,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/467c4861-516c-42b3-b2e3-8418d910ecc8.jpg" alt="Wiens Rådhus med cirkusopstilling" loading="lazy">
+<img src="/images/wien/25_raadhuset_cirkus_1.jpg" alt="Wiens Rådhus med cirkusopstilling" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/bed14684-ecbd-4d2e-af0d-586752a22120.jpg" alt="Wiener Rathaus detalje" loading="lazy">
+<img src="/images/wien/26_raadhuset_cirkus_2.jpg" alt="Wiener Rathaus detalje" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -273,10 +273,10 @@ nav_days = [
 <article class="journal-card span-2">
 <div class="dual-media">
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/a9b5b9f5-4657-46a5-9df7-4209f6d5fd5a.jpg" alt="Votivkirken (Votivkirche) eksteriør" loading="lazy">
+<img src="/images/wien/27_votivkirken_eksterioer.jpg" alt="Votivkirken (Votivkirche) eksteriør" loading="lazy">
 </div>
 <div class="media-item" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/cca81693-8518-459a-8379-60292ffd8e08.jpg" alt="Votivkirken interiør og lysindfald" loading="lazy">
+<img src="/images/wien/28_votivkirken_interioer.jpg" alt="Votivkirken interiør og lysindfald" loading="lazy">
 </div>
 </div>
 <div class="card-body">
@@ -287,7 +287,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/a458f99b-2308-466b-9f58-3a47afa11b17.jpg" alt="Liechtenstein Park og Havepalæ" loading="lazy">
+<img src="/images/wien/29_liechtenstein_park.jpg" alt="Liechtenstein Park og Havepalæ" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Palæer & Haver</span>
@@ -297,7 +297,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/c2df56a1-bfbd-4689-923f-403befe1da44.jpg" alt="Nysgerrigt egern i parken" loading="lazy">
+<img src="/images/wien/30_egern_i_parken.jpg" alt="Nysgerrigt egern i parken" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Dyreliv</span>
@@ -307,7 +307,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/0c5f0dd2-30f6-425a-8027-8a015fc340b6.jpg" alt="Morgentur i Wien - Where to go?" loading="lazy">
+<img src="/images/wien/31_where_to_go.jpg" alt="Morgentur i Wien - Where to go?" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Morgenstund</span>
@@ -329,7 +329,7 @@ nav_days = [
 <div class="cards-grid">
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/2fd7b8e8-8428-4029-97eb-842821f042eb.jpg" alt="Barokhaven ved Belvedere" loading="lazy">
+<img src="/images/wien/32_barokhaven.jpg" alt="Barokhaven ved Belvedere" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Havekunst</span>
@@ -339,7 +339,7 @@ nav_days = [
 </article>
 <article class="journal-card span-2">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/6e31eee3-e230-4308-a501-eb8320c45415.jpg" alt="Schloss Belvedere Palads i Wien" loading="lazy">
+<img src="/images/wien/33_schloss_belvedere.jpg" alt="Schloss Belvedere Palads i Wien" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Højdepunkt • Barok</span>
@@ -352,7 +352,7 @@ nav_days = [
 </article>
 <article class="journal-card">
 <div class="card-media" onclick="openLightbox(this)">
-<img src="https://hedgedoc.tailf86d.ts.net/uploads/14da180f-f837-4c27-a067-ea7979207cc8.jpg" alt="Gåtur mod Belvedere" loading="lazy">
+<img src="/images/wien/34_vi_gaar_mod_belvedere.jpg" alt="Gåtur mod Belvedere" loading="lazy">
 </div>
 <div class="card-body">
 <span class="card-tag">Vandretur</span>
