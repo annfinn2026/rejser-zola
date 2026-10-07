@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="hero" id="top">
+  <div class="hero-content">
+    {% if page.extra.location %}
+    <div class="badge-location">
+      <span>📍 {{ page.extra.location }}</span>
+    </div>
+    {% endif %}
+    <h1 class="hero-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="hero-desc">{{ page.description }}</p>
+    {% endif %}
+    <div class="stats-pills">
+      {% if page.extra.days %}
+      <div class="stat-item">
+        <strong>{{ page.extra.days }}</strong> Dage
+      </div>
+      <div class="stat-item">•</div>
+      {% endif %}
+      {% if page.extra.photos %}
+      <div class="stat-item">
+        <strong>{{ page.extra.photos }}</strong> Fotos
+      </div>
+      <div class="stat-item">•</div>
+      {% endif %}
+      {% if page.date %}
+      <div class="stat-item">
+        <strong>{{ page.date | date(format="%d. %B %Y") }}</strong>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</header>
+
+{% if page.extra.nav_days %}
+<nav class="sticky-nav">
+  <div class="nav-container">
+    <div class="nav-label">
+      <span>Rejsedage:</span>
+    </div>
+    <div class="nav-tabs">
+      {% for item in page.extra.nav_days %}
+      <a href="{{ item.anchor }}">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+{% endif %}
+
+<div class="main-container">
+  {{ page.content | safe }}
+</div>
+{% endblock content %}

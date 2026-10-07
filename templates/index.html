@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="hero" id="top">
+  <div class="hero-content">
+    <div class="badge-location">
+      <span>🌍 Personlig Rejseblog</span>
+    </div>
+    <h1 class="hero-title">{{ config.title }}</h1>
+    <p class="hero-desc">
+      {{ config.extra.tagline }}
+    </p>
+  </div>
+</header>
+
+<div class="main-container">
+  <div style="margin-bottom: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;">
+    <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.8rem; color: #fff;">
+      Rejsedagbøger & Ruter
+    </h2>
+  </div>
+
+  <div class="cards-grid">
+    {% for page in section.pages %}
+    <article class="journal-card">
+      {% if page.extra.cover_image %}
+      <a href="{{ page.permalink }}" style="text-decoration: none;">
+        <div class="card-media">
+          <img src="{{ page.extra.cover_image }}" alt="{{ page.title }}" loading="lazy">
+        </div>
+      </a>
+      {% endif %}
+      <div class="card-body">
+        {% if page.extra.location %}
+        <span class="card-tag">📍 {{ page.extra.location }}</span>
+        {% endif %}
+        <h3 class="card-title">
+          <a href="{{ page.permalink }}" style="color: inherit; text-decoration: none;">
+            {{ page.title }}
+          </a>
+        </h3>
+        {% if page.description %}
+        <p class="card-text">{{ page.description }}</p>
+        {% endif %}
+        <div class="card-meta">
+          <span>
+            {% if page.extra.days %}{{ page.extra.days }} dage • {% endif %}
+            {% if page.extra.photos %}{{ page.extra.photos }} fotos{% endif %}
+          </span>
+          <a href="{{ page.permalink }}" style="color: var(--primary); text-decoration: none; font-weight: 700;">
+            Oplev tur →
+          </a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,8 @@
+title = "Mine Rejser & Oplevelser"
+base_url = "/"
+compile_sass = false
+build_search_index = false
+
+[extra]
+author = "Hans"
+tagline = "Visuelle rejsefortællinger, vandreruter og fotoarkiv"
