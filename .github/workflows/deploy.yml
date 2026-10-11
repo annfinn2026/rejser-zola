@@ -16,7 +16,8 @@ jobs:
       - name: Optimize images
         run: |
           if [ -d "static/images" ]; then
-            echo "🖼️ Optimerer billeder i static/images/..."
+            echo "🖼️ Installerer ImageMagick og optimerer billeder..."
+            sudo apt-get update -qq && sudo apt-get install -qq -y imagemagick
             find static/images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -exec mogrify -auto-orient -resize "1600x1600>" -quality 82 -strip {} +
             echo "✅ Billeder optimeret!"
           fi
