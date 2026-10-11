@@ -54,6 +54,11 @@ tagline = "Visuelle rejsefortællinger, vandreruter og fotoarkiv"
 
 ## 3. Komplet GitHub Vejledning (Mobil & PC)
 
+> [!TIP] To GitHub-konti (Mobilopsætning)
+> Din primære konto **inimillumfjara** er tilføjet som Collaborator med fuld skriveadgang (Write) på dette repository (ejet af **annfinn2026**).
+> Det betyder, at du på din telefon altid kan være logget ind på din primære konto **inimillumfjara** uden nogensinde at skulle logge ind og ud!
+
+
 Dit projekt er koblet sammen med et GitHub repository:  
 🔗 **[https://github.com/annfinn2026/rejser-zola](https://github.com/annfinn2026/rejser-zola)**
 
