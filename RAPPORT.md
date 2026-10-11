@@ -114,10 +114,19 @@ Du behøver **ikke** have en computer med på ferie. Du kan gøre alt fra mobilt
 
 #### C. Uploade nye billeder fra mobilens kamerarulle:
 1. Gå til mappen `static/images/` på GitHub.
-2. Opret en ny undermappe eller gå ind i en eksisterende.
+2. Opret en ny undermappe eller gå ind i en eksisterende (f.eks. `static/images/rom/`).
 3. Tryk på **"Add file"** ➜ **"Upload files"**.
 4. Vælg billederne direkte fra dit fotoarkiv/kamerarulle.
 5. Tryk **"Commit changes"**.
+
+> [!NOTE] Automatisk billedoptimering i skyen 🪄
+> Du behøver ikke formindske billederne på telefonen først!
+> GitHub Actions kører automatisk en billedoptimering, der:
+> - Roterer billedet korrekt ift. mobilens vinkel (auto-orient).
+> - Skalerer billedet ned til maks **1600 px** i bredden/højden.
+> - Komprimerer det til webkvalitet (~82%), så filstørrelsen reduceres med op til 90% (typisk fra 10 MB til ~200-300 KB).
+> - Fjerner privatlivsfølsom GPS/EXIF-metadata.
+
 
 ---
 
