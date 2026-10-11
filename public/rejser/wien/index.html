@@ -312,6 +312,71 @@
       margin-top: 0.6rem;
     }
 
+    /* Standard Markdown Content Styling */
+    .main-container h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 2.2rem;
+      color: var(--text-main);
+      margin-top: 3.5rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .main-container h3 {
+      font-size: 1.4rem;
+      color: var(--primary);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .main-container p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .main-container ul, .main-container ol {
+      color: var(--text-muted);
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    .main-container li {
+      margin-bottom: 0.5rem;
+    }
+
+    .main-container blockquote {
+      border-left: 4px solid var(--primary);
+      padding: 1rem 1.5rem;
+      background: var(--bg-surface);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1.5rem 0;
+      color: #cbd5e1;
+      font-style: italic;
+    }
+
+    .main-container p > img,
+    .main-container > img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-md);
+      display: block;
+      margin: 2rem auto;
+      cursor: zoom-in;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .main-container p > img:hover,
+    .main-container > img:hover {
+      transform: scale(1.01);
+      border-color: rgba(251, 146, 60, 0.4);
+    }
+
     /* Section Styling */
     .day-section {
       margin-bottom: 5rem;
@@ -953,13 +1018,18 @@
     const lightboxCaption = document.getElementById('lightboxCaption');
 
     function openLightbox(element) {
-      const img = element.querySelector('img');
+      const img = element.tagName === 'IMG' ? element : element.querySelector('img');
       if (!img) return;
       lightboxImg.src = img.src;
       lightboxCaption.textContent = img.alt || '';
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
     }
+
+    // Gør alle almindelige markdown-billeder klikbare i Lightbox
+    document.querySelectorAll('.main-container img').forEach(img => {
+      img.addEventListener('click', () => openLightbox(img));
+    });
 
     function closeLightbox(event) {
       if (event.target === modal) forceCloseLightbox();
